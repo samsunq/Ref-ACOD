@@ -1,4 +1,10 @@
-Data and related information will be announced soon, please wait a while.
+Ref-ACOD is a referring segmentation dataset aim to artificial camouflaged objects. This dataset collected 6K figures, which conclued some military artificial camouflaged objects in the wild scenes. 
+
+These military artificial camouflaged objects included military soldiers, tanks, armored vehicles, and military equipment with camouflage nets. To pursue the distinction of positions and categories in reference segmentation, we strive to ensure that multiple target units are present in each image we obtain.
+In response to the concept of referring segmentation and typical datasets used, such as ref-coco and ref-coco+, we created the Ref-ACOD dataset using a similar production method and data format as the refcoco dataset. 
+This is to facilitate the subsequent use of this dataset by allowing users to directly read and process it using the same methods as the refcoco dataset. The details is shown as fellows:
+
+
 
 
 💡 Attention！
