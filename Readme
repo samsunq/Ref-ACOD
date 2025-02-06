@@ -13,6 +13,13 @@ This is to facilitate the subsequent use of this dataset by allowing users to di
 3. Ref-ACOD contains absolute spatial terms, such as describing the position of an object in the lower right corner of the image;
 4. The dataset has segmentation annotations for all objects, using the standard LabelMe format.
 
+We propose a novel RIS benchmark dataset tailored for the COD task, named Referring Artificial Camouflaged Objects Detection (Ref-ACOD). Inspired by the outstanding segmentation performance of the Segment Anything Model (SAM), we adopt a semi-automated approach that utilizes bounding boxes and SAM to generate pixel-level masks, significantly reducing annotation costs. Specifically, we follow these steps to generate pixel-level
+annotations for linguistic expressions:
+• Step 1: Using the bounding box prompts provided by the CPQA dataset, we employ SAM to generate pixel-level masks for all images in the dataset.
+• Step 2: The dataset is carefully curated to identify problematic data, and manual annotation is performed to produce masks that meet the annotation standards. This process is assisted by a software tool designed based on SAM principles, ensuring the precision of the masks that correspond to the linguistic expressions.
+• Step 3: To improve the compatibility of Ref-ACOD with RIS models, the finalized annotations are converted into the RefCOCO dataset format, enhancing usability.
+
+
 💡 Attention！
 
 This dataset contains a portion of real battlefield videos and image captures, which may cause discomfort to readers. Please be aware that this dataset is intended for COD detection of artificial camouflage targets aimed at security and military purposes. Additionally, some data in this dataset comes from publicly available videos and images on the internet. This dataset is for non-commercial use only. 
