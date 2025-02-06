@@ -1,3 +1,4 @@
+🎶 Introduction:
 Ref-ACOD is a referring segmentation dataset aim to artificial camouflaged objects. This dataset collected 6K figures, which conclued some military artificial camouflaged objects in the wild scenes. 
 
 The benchmark statistics, Ref-ACOD, comprises a collection of 6,000 images, with the number of expressions allocated across the training, and validation sets being 5,681, 1168, respectively. Notably, a significant proportion of the target objects are extremely small, occupying only a tiny fraction of the overall image. Conversely, there are also large-scale objects whose sizes exceed 50% of the image area. This variability presents a challenging task, as the dataset requires models to predict targets within images that exhibit significant scale variation, including numerous small objects and
@@ -25,3 +26,33 @@ annotations for linguistic expressions:
 
 This dataset contains a portion of real battlefield videos and image captures, which may cause discomfort to readers. Please be aware that this dataset is intended for COD detection of artificial camouflage targets aimed at security and military purposes. Additionally, some data in this dataset comes from publicly available videos and images on the internet. This dataset is for non-commercial use only. 
 The author declares: The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+👉Release address：
+
+🖌️ The [refs(unc).p] file contains data in standard format
+{
+  "sent_ids": [  # sentence id，XXXX],
+ 
+  "file_name": 
+ 
+  "ann_id": # annotaions id
+ 
+  "ref_id":  # self id
+ 
+  "image_id":  # fig id
+ 
+  "split": "train",  # or "validation"
+ 
+  "sentences": [  {
+ 
+      "tokens": ["XXX", "XXX", "XXX"],
+ 
+      "raw": ""XXX"+"XXX"+"XXX"",
+ 
+      "sent_id":  ,
+ 
+      "sent": "XXX+XXX+XXX" },  ],
+ 
+  "category_id": 1  #  the same category as CoCo, if the objects did not included in coco set a new id
+ 
+}
