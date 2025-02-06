@@ -19,7 +19,8 @@ annotations for linguistic expressions:
 • Step 2: The dataset is carefully curated to identify problematic data, and manual annotation is performed to produce masks that meet the annotation standards. This process is assisted by a software tool designed based on SAM principles, ensuring the precision of the masks that correspond to the linguistic expressions.
 • Step 3: To improve the compatibility of Ref-ACOD with RIS models, the finalized annotations are converted into the RefCOCO dataset format, enhancing usability.
 
-thecontractionforACOD.png
+![detection](https://github.com/samsunq/Ref-ACOD/blob/main/thecontractionforACOD.png)
+
 💡 Attention！
 
 This dataset contains a portion of real battlefield videos and image captures, which may cause discomfort to readers. Please be aware that this dataset is intended for COD detection of artificial camouflage targets aimed at security and military purposes. Additionally, some data in this dataset comes from publicly available videos and images on the internet. This dataset is for non-commercial use only. 
