@@ -7,7 +7,7 @@ large-scale targets.
 These military artificial camouflaged objects included military soldiers, tanks, armored vehicles, and military equipment with camouflage nets. To pursue the distinction of positions and categories in reference segmentation, we strive to ensure that multiple target units are present in each image we obtain. In response to the concept of referring segmentation and typical datasets used, such as ref-coco and ref-coco+, we created the Ref-ACOD dataset using a similar production method and data format as the refcoco dataset. 
 This is to facilitate the subsequent use of this dataset by allowing users to directly read and process it using the same methods as the refcoco dataset. The details is shown as fellows:
 
-![image](https://github.com/samsunq/Ref-ACOD/blob/main/thecontractionforACOD.png)
+![Image](https://github.com/samsunq/Ref-ACOD/blob/main/thecontractionforACOD.png)
 
 1. The dataset includes bounding box annotations for all phrases; 
 2. Ref-ACOD only splits the train/validation sets; 
@@ -20,7 +20,7 @@ annotations for linguistic expressions:
 • Step 2: The dataset is carefully curated to identify problematic data, and manual annotation is performed to produce masks that meet the annotation standards. This process is assisted by a software tool designed based on SAM principles, ensuring the precision of the masks that correspond to the linguistic expressions.
 • Step 3: To improve the compatibility of Ref-ACOD with RIS models, the finalized annotations are converted into the RefCOCO dataset format, enhancing usability.
 
-![image](https://github.com/samsunq/Ref-ACOD/blob/main/thecontractionforACOD.png)
+![Image](https://github.com/samsunq/Ref-ACOD/blob/main/thecontractionforACOD.png)
 
 💡 Attention！
 
