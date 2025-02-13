@@ -21,7 +21,7 @@ annotations for linguistic expressions:
 • Step 3: To improve the compatibility of Ref-ACOD with RIS models, the finalized annotations are converted into the RefCOCO dataset format, enhancing usability.
 
 ![Image](https://github.com/samsunq/Ref-ACOD/blob/main/thecontractionforACOD.png)
-
+![Image](https://github.com/user-attachments/assets/c7aeb46e-3715-41cf-a055-d666d7f9e6ae)
 💡 Attention！
 
 This dataset contains a portion of real battlefield videos and image captures, which may cause discomfort to readers. Please be aware that this dataset is intended for COD detection of artificial camouflage targets aimed at security and military purposes. Additionally, some data in this dataset comes from publicly available videos and images on the internet. This dataset is for non-commercial use only. 
